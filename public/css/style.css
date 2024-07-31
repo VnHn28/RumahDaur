@@ -1,59 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  header nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  header nav ul li {
-    margin: 0 15px;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .container {
-    padding: 20px;
-  }
-  
-  h1 {
-    color: #4CAF50;
-  }
-  
-  a {
-    color: #4CAF50;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  background-color: #4caf50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+header .logo-container {
+  position: absolute;
+  left: 20px;
+}
+
+header .logo {
+  height: 40px;
+}
+
+.header-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-center h1 {
+  color: white;
+  margin: 0;
+}
+
+.header-center nav {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.header-center nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-center nav ul li {
+  margin: 0 15px;
+}
+
+.header-center nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-center nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  bottom: 0;
+  color: white;
+  padding: 10px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  padding: 20px;
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
